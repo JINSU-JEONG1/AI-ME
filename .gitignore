@@ -1,0 +1,18 @@
+# 가상환경 및 파이썬 캐시 
+.venv/
+__pycache__/
+*.pyc
+
+# 환경 변수 파일 
+# .env.development, .env.production 등을 모두 포함하기 위해 와일드카드 사용
+.env*
+
+# IDE 및 OS 설정 파일 
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# uv 관련
+.python-version
+uv.lock
